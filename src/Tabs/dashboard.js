@@ -36,7 +36,9 @@ class TabDashBoard extends Component {
         ],
       };
     componentWillMount(){ 
+        
         this.props.onFetch();
+
     }
       _handleIndexChange = index => this.setState({ index });
       _renderLabel = (props) => ({ route, index }) => {
