@@ -36,7 +36,7 @@ class TabDashBoard extends Component {
         ],
       };
     componentWillMount(){ 
-        
+
         this.props.onFetch();
 
     }
@@ -82,8 +82,7 @@ class TabDashBoard extends Component {
                 style = {{backgroundColor : '#d8d8d8', height : 40}}
                 indicatorStyle = {{backgroundColor : '#d8d8d8'}}
                 labelStyle = {{color : 'white',fontWeight : '400'}}                  
-                renderLabel = {this._renderLabel(props)}  
-        
+                renderLabel = {this._renderLabel(props)}
              />;
     
     _renderScene = ({ route }) => {
