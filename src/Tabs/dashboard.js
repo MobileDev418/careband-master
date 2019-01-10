@@ -117,7 +117,7 @@ class TabDashBoard extends Component {
                   tag = {'Dashboard'}
                   
                 />
-                <TabViewAnimated
+                <TabViewAnimated // Tab bar
                     navigationState={this.state}
                     renderScene={this._renderScene}
                     renderHeader={this._renderHeader}
