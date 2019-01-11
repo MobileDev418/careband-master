@@ -61,7 +61,7 @@ class DashActive extends Component {
     const { activeData } = this.props;  
     this._onLoadData(activeData);    
     return (
-        <ListView
+        <ListView   // active cards
           style={this.props.listStyle}
           dataSource={this.state.dataSource}
           renderRow={(data) => <RowActive 
